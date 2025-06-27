@@ -1,6 +1,5 @@
-python-telegram-bot==20.7
-Flask==2.3.3
-gspread==6.0.2
-schedule==1.2.1
-google-auth==2.29.0
-google-api-python-client==2.118.0
+python-telegram-bot==20.3
+gspread
+schedule
+flask
+google-auth
