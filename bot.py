@@ -1,4 +1,3 @@
-
 from keep_alive import keep_alive
 keep_alive()
 
@@ -15,7 +14,7 @@ from telegram.ext import Application, MessageHandler, ContextTypes, filters
 from google.oauth2.service_account import Credentials
 
 # --- Конфіг ---
-TOKEN = os.environ.get("TOKEN")
+TOKEN = os.environ.get("TELEGRAM_TOKEN")  # <- виправлено тут!
 SPREADSHEET_URL = os.environ.get("SPREADSHEET_URL")
 SHEET_NAME = os.environ.get("SHEET_NAME")
 
